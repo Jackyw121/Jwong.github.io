@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: #000000;
 }
 
 a {
@@ -42,7 +42,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0563bb;
+  background: #5d677a;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -285,7 +285,7 @@ h6 {
   width: 100%;
   height: 100vh;
   background: url("../img/background-resume.jpg") top right no-repeat;
-  background-size: cover;
+  background-size: contain;
   position: relative;
 }
 
@@ -297,7 +297,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(94, 94, 95, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -310,11 +310,11 @@ h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #45505b;
+  color: #f8f8f8;
 }
 
 #hero p {
-  color: #45505b;
+  color: #ffffff;
   margin: 15px 0 0 0;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
@@ -332,7 +332,7 @@ h6 {
 #hero .social-links a {
   font-size: 24px;
   display: inline-block;
-  color: #45505b;
+  color: #ffffff;
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
@@ -441,6 +441,9 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+}
+.aboutSpace {
+  margin-top: 75px;
 }
 
 /*--------------------------------------------------------------
@@ -961,7 +964,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f8f9;
+  background: rgba(94, 94, 95, 0.8);
   color: #45505b;
   font-size: 14px;
   text-align: center;
@@ -991,7 +994,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0563bb;
+  background: #5d677a;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
